@@ -15,7 +15,9 @@ const User = () => {
   return (
     <div>
       <div className="header">
-        <h1>Users</h1>
+        <div>
+          <h1>Users</h1>
+        </div>
       </div>
       <div className="container">
         <div className="main">

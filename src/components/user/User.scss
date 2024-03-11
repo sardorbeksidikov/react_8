@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
   color: wheat;
   border-radius: 10px;
   margin-top: 30px;
@@ -18,6 +19,7 @@
 .main {
   display: grid;
   margin-top: 100px;
+  padding-bottom: 50px;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 
@@ -27,11 +29,10 @@
     border-radius: 5px;
     background-color: rgba(30, 143, 143, 0.445);
     box-shadow: 3px 3px 8px rgb(81, 81, 81);
-    &:hover{
-        transform: scale(1.02);
-        transition: 0.5s;
-        box-shadow: 3px 3px 8px rgb(23, 77, 226);
-        
+    &:hover {
+      transform: scale(1.02);
+      transition: 0.5s;
+      box-shadow: 3px 3px 8px rgb(23, 77, 226);
     }
     h5 {
       margin-top: 10px;
@@ -49,12 +50,11 @@
       background-color: #01cd5d;
       color: #fff;
       box-shadow: 3px 3px 8px rgb(81, 81, 81);
-      &:hover{
+      &:hover {
         transform: scale(1.02);
         transition: 0.5s;
         background-color: #d1ff48;
         box-shadow: 3px 3px 8px rgb(6, 214, 23);
-
       }
     }
   }
